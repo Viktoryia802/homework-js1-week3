@@ -17,3 +17,8 @@ console.log(abc.length);
 */
 
 //your code here
+var line = "";
+for (var i = 0; i < 7; i++) {
+  line = line.concat("#");
+  console.log(line, i);
+}
